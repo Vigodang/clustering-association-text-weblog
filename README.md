@@ -71,6 +71,9 @@ This study answers four key analytics questions:
 
 ##  4. Repository Structure
 
+## 4. Repository Structure
+
+```text
 data/
 ├── processed/                  # Cleaned datasets (if applicable)
 ├── raw/                        # Original datasets
