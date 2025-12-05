@@ -1,33 +1,59 @@
+#  Predictive Data Analytics – Customer Behaviour Case Study  
+### CAB330 (Data & Web Analytics) – Queensland University of Technology
 
-# Predictive Data Analytics – Customer Behaviour Case Study
+---
 
-## 1. Overview 
+##  1. Overview
 
-This project is a university data analytics case study for CAB330 (Data and Web Analytics) at QUT.
-We analyse four datasets (audio tracks, transactions, movies and weblog) to understand customer
-behaviour using clustering, association rule mining, text mining, and web usage mining.
+This repository contains my analytical case study for **CAB330 – Data and Web Analytics** at QUT.  
+The project investigates **customer behaviour** using four datasets:
 
+- Audio tracks  
+- Retail transactions  
+- Movie descriptions  
+- Web server logs  
 
-## 2. Business Questions 
+Across these datasets, the goal is to understand user patterns, product relationships, content similarity, and navigation behaviour using a range of predictive analytics techniques.
 
-- Which customer segments can we identify from transaction behaviour?
-- What product combinations are frequently bought together?
-- How can we recommend movies or content based on textual descriptions?
-- What are the most common navigation paths on the website?
+---
 
-## 3. Techniques & Tools 
+##  2. Business Questions
 
-- **Data processing:** Python, pandas, numpy
-- **Clustering:** k-means, hierarchical clustering
-- **Association rules:** Apriori, support–confidence–lift
-- **Text mining:** TF–IDF, cosine similarity
-- **Web usage mining:** session identification, path analysis
-- **Visualisation:** matplotlib, seaborn
+This project addresses several key analytical questions:
 
-## 4. Repository Structure 
+1. **What customer segments exist based on transaction behaviour?**  
+2. **Which product combinations are frequently purchased together?**  
+3. **How can we recommend movies or content based on textual similarity?**  
+4. **What are the most common user navigation paths on the website?**
 
-data/          # raw and processed datasets
-notebooks/     # main Jupyter notebook for the analysis
-src/           # reusable Python modules (optional)
-figures/       # charts used in the report
-reports/       # final written report (PDF)
+---
+
+##  3. Techniques & Tools
+
+### **Data Processing**
+- Python, pandas, numpy
+
+### **Clustering**
+- K-means  
+- Hierarchical clustering  
+
+### **Association Rule Mining**
+- Apriori  
+- Support, confidence, lift  
+
+### **Text Mining**
+- TF–IDF  
+- Cosine similarity  
+
+### **Web Usage Mining**
+- Session identification  
+- Path analysis  
+
+### **Visualisation**
+- matplotlib  
+- seaborn  
+
+---
+
+##  4. Repository Structure
+
