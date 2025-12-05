@@ -72,26 +72,24 @@ This study answers four key analytics questions:
 ##  4. Repository Structure
 
 data/
-│── processed/ # Cleaned datasets (if applicable)
-│── raw/ # Original datasets
-│ ├─ Dataset1_AudioTrack.csv
-│ ├─ Dataset2_TRANS.csv
-│ ├─ Dataset3_Movie.csv
-│ └─ Dataset4_Weblog.txt
-
-figures/ # Visualisations generated during the analysis
-│ ├─ T1_{col}_by_cluster.png
-│ ├─ T1_elbow.png
-│ ├─ T1_energy_hist.png
-│ ├─ T1_pairplot_k3.png
-│ └─ T1_silhouette.png
-
+├── processed/                  # Cleaned datasets (if applicable)
+├── raw/                        # Original datasets
+│   ├── Dataset1_AudioTrack.csv
+│   ├── Dataset2_TRANS.csv
+│   ├── Dataset3_Movie.csv
+│   └── Dataset4_Weblog.txt
+figures/                        # Visualisations generated during the analysis
+├── T1_{col}_by_cluster.png
+├── T1_elbow.png
+├── T1_energy_hist.png
+├── T1_pairplot_k3.png
+└── T1_silhouette.png
 notebooks/
-│── cab330_case_study.ipynb # Main Jupyter notebook for the analysis
-
+└── cab330_case_study.ipynb     # Main Jupyter notebook for the analysis
 reports/
-│── cab330_case_study_report.docx # Final written report
-
+└── cab330_case_study_report.docx # Final written report
 README.md
 requirements.txt
+
+
 
