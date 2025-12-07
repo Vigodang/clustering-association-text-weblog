@@ -1,12 +1,8 @@
 #  Predictive Data Analytics – Customer Behaviour Case Study  
-### CAB330 (Data & Web Analytics) – Queensland University of Technology
 
 ---
 
 ##  1. Overview
-
-This repository contains a full analytical case study completed for  
-**CAB330 – Data and Web Analytics at QUT**.
 
 The project explores **customer behaviour patterns** using four datasets:
 
